@@ -7,15 +7,19 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		243245AA255EF76800A1A6CE /* CardCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 243245A9255EF76800A1A6CE /* CardCollectionViewCell.swift */; };
 		24617D9B255D324900E662F8 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24617D9A255D324900E662F8 /* AppDelegate.swift */; };
 		24617D9D255D324900E662F8 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24617D9C255D324900E662F8 /* SceneDelegate.swift */; };
 		24617D9F255D324900E662F8 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24617D9E255D324900E662F8 /* ViewController.swift */; };
 		24617DA2255D324900E662F8 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 24617DA0255D324900E662F8 /* Main.storyboard */; };
 		24617DA4255D324B00E662F8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 24617DA3255D324B00E662F8 /* Assets.xcassets */; };
 		24617DA7255D324B00E662F8 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 24617DA5255D324B00E662F8 /* LaunchScreen.storyboard */; };
+		24617DB0255D3A4300E662F8 /* CardModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24617DAF255D3A4300E662F8 /* CardModel.swift */; };
+		24617DB3255D3C8300E662F8 /* Card.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24617DB2255D3C8300E662F8 /* Card.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		243245A9255EF76800A1A6CE /* CardCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardCollectionViewCell.swift; sourceTree = "<group>"; };
 		24617D97255D324900E662F8 /* ConcentrationGame.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ConcentrationGame.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		24617D9A255D324900E662F8 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		24617D9C255D324900E662F8 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -24,6 +28,8 @@
 		24617DA3255D324B00E662F8 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		24617DA6255D324B00E662F8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		24617DA8255D324B00E662F8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		24617DAF255D3A4300E662F8 /* CardModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardModel.swift; sourceTree = "<group>"; };
+		24617DB2255D3C8300E662F8 /* Card.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Card.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,9 +62,12 @@
 		24617D99255D324900E662F8 /* ConcentrationGame */ = {
 			isa = PBXGroup;
 			children = (
+				24617DAF255D3A4300E662F8 /* CardModel.swift */,
+				24617DB2255D3C8300E662F8 /* Card.swift */,
 				24617D9A255D324900E662F8 /* AppDelegate.swift */,
 				24617D9C255D324900E662F8 /* SceneDelegate.swift */,
 				24617D9E255D324900E662F8 /* ViewController.swift */,
+				243245A9255EF76800A1A6CE /* CardCollectionViewCell.swift */,
 				24617DA0255D324900E662F8 /* Main.storyboard */,
 				24617DA3255D324B00E662F8 /* Assets.xcassets */,
 				24617DA5255D324B00E662F8 /* LaunchScreen.storyboard */,
@@ -138,7 +147,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				24617D9F255D324900E662F8 /* ViewController.swift in Sources */,
+				24617DB0255D3A4300E662F8 /* CardModel.swift in Sources */,
+				24617DB3255D3C8300E662F8 /* Card.swift in Sources */,
 				24617D9B255D324900E662F8 /* AppDelegate.swift in Sources */,
+				243245AA255EF76800A1A6CE /* CardCollectionViewCell.swift in Sources */,
 				24617D9D255D324900E662F8 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
